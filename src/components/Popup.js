@@ -16,11 +16,10 @@ export default function Popup(props) {
     "Speed",
   ];
 
-
   const uppercaseName = (name) => {
     if (!name) {
-        return '';
-      }
+      return "";
+    }
     return name.charAt(0).toUpperCase() + name.slice(1);
   };
 
@@ -63,7 +62,7 @@ export default function Popup(props) {
         </p>
         <p>
           <b>Height: </b>
-        {props.pokemon.height} cm
+          {props.pokemon.height} cm
         </p>
         <button onClick={props.onClose}>
           <GrClose />

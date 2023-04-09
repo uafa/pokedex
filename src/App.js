@@ -13,11 +13,15 @@ function App() {
         </a>
         <div class="navigation-menu">
           <ul>
-            <li><Link to="/">Pokedex</Link></li>
-            <li><Link to="/about">About</Link></li>
+            <li>
+              <Link to="/">Pokedex</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
           </ul>
         </div>
-      </nav> 
+      </nav>
       <Outlet />
     </>
   );

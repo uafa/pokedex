@@ -63,8 +63,8 @@ export default function PokeCard(props) {
 
   const uppercaseName = (name) => {
     if (!name) {
-        return '';
-      }
+      return "";
+    }
     return name.charAt(0).toUpperCase() + name.slice(1);
   };
 
