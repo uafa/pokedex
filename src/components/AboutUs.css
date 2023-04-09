@@ -1,0 +1,19 @@
+.pokeImg {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.textDiv {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+body {
+  background-color: #fcfcfc;
+}
